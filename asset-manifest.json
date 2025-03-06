@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/parlour-app/static/css/main.64f8e45f.css",
+    "main.js": "/parlour-app/static/js/main.2afab886.js",
+    "static/js/453.e001b140.chunk.js": "/parlour-app/static/js/453.e001b140.chunk.js",
+    "index.html": "/parlour-app/index.html",
+    "main.64f8e45f.css.map": "/parlour-app/static/css/main.64f8e45f.css.map",
+    "main.2afab886.js.map": "/parlour-app/static/js/main.2afab886.js.map",
+    "453.e001b140.chunk.js.map": "/parlour-app/static/js/453.e001b140.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64f8e45f.css",
+    "static/js/main.2afab886.js"
+  ]
+}
