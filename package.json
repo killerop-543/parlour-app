@@ -1,4 +1,5 @@
 {
+  "homepage": "https://killerop-543.github.io/parlour-app",
   "name": "parlour-booking-app",
   "version": "0.1.0",
   "private": true,
@@ -19,11 +20,14 @@
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.2.0",
     "react-scripts": "^5.0.1",
+    "sweetalert2": "^11.17.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "dev": "react-scripts start",
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
