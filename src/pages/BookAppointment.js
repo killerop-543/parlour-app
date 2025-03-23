@@ -18,6 +18,12 @@ import 'react-calendar/dist/Calendar.css';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import PersonIcon from '@mui/icons-material/Person';
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
+import salonImage from './salon_bg.jpg';
+import img1 from './img1.jpg';
+import img2 from './img2.jpg';
+import img3 from './img3.jpg';
+import img4 from './img4.jpg';
+import img5 from './img5.jpg';
 
 const StyledCalendar = styled(Calendar)(({ theme }) => ({
   '&.react-calendar': {
@@ -86,20 +92,21 @@ const timeSlots = [
 
 
 const attendants = [
-    { id: 1, name: 'Jawed Habib', specialty: 'Hair Stylist', image: 'https://www.adgully.com/img/800/54778_jawed-habib-jhhb.jpg' },
-    { id: 2, name: 'Aalim Hakim', specialty: 'Color Specialist', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6qO9m_e6C4CjTjVVLWPyFCcW56LHXvgKsKw&s' },
-    { id: 3, name: 'Frédéric Fekkai', specialty: 'Makeup Artist', image: 'https://cew.org/wp-content/uploads/2020/05/Frederic-Fekkai-Headshot-scaled.jpg' },
-    { id: 4, name: 'David KimKen Pavés', specialty: 'Nail Technician', image: 'https://b3504934.smushcdn.com/3504934/wp-content/uploads/2022/12/KenPaves-1-640x800.jpg?lossy=2&strip=1&webp=1' },
-    { id: 5, name: 'Brant Mayfield', specialty: 'Facial Expert', image: 'https://images.squarespace-cdn.com/content/v1/66ea059fb0668648ea57a47b/3e07e9c8-22a1-4979-af95-b89eee9eed56/241106-CMS-Brant+Mayfield-Portraits-0015-Edit-1920-Tiny.jpg?format=2500w' },
-  ];
-  
+  { id: 1, name: 'Jawed Habib', specialty: 'Hair Stylist', image: img1 },
+  { id: 2, name: 'Aalim Hakim', specialty: 'Color Specialist', image: img2 },
+  { id: 3, name: 'Frédéric Fekkai', specialty: 'Makeup Artist', image: img3 },
+  { id: 4, name: 'David KimKen Pavés', specialty: 'Nail Technician', image: img4 },
+  { id: 5, name: 'Brant Mayfield', specialty: 'Facial Expert', image: img5 },
+];
+
+
 // // Services
 const services = [
-  { id: 1, name: 'Haircut', duration: '45 min', price: '$45' },
-  { id: 2, name: 'Hair Coloring', duration: '120 min', price: '$120' },
-  { id: 3, name: 'Manicure', duration: '30 min', price: '$35' },
-  { id: 4, name: 'Pedicure', duration: '45 min', price: '$45' },
-  { id: 5, name: 'Facial', duration: '60 min', price: '$80' }
+  { id: 1, name: 'Haircut', duration: '45 min', price: 'Rs. 100' },
+  { id: 2, name: 'Hair Coloring', duration: '120 min', price: 'Rs. 500' },
+  { id: 3, name: 'Manicure', duration: '30 min', price: 'Rs. 150' },
+  { id: 4, name: 'Pedicure', duration: '45 min', price: 'Rs. 250' },
+  { id: 5, name: 'Facial', duration: '60 min', price: 'Rs. 400' }
 ];
 
 const BookAppointment = () => {
@@ -197,13 +204,14 @@ const BookAppointment = () => {
                 </Grid>
                 <Grid item xs={12} md={6}>
                   <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                    <CardMedia
-                      component="img"
-                      height="200"
-                      image="https://images.pexels.com/photos/853427/pexels-photo-853427.jpeg?cs=srgb&dl=pexels-delbeautybox-211032-853427.jpg&fm=jpg"
-                      alt="Salon interior"
-                      sx={{ objectFit: 'cover' }}
-                    />
+                      <CardMedia
+                        component="img"
+                        height="200"
+                        // image="https://images.pexels.com/photos/853427/pexels-photo-853427.jpeg?cs=srgb&dl=pexels-delbeautybox-211032-853427.jpg&fm=jpg"
+                        image={salonImage}
+                        alt="Salon interior"
+                        sx={{ objectFit: 'cover' }}
+                      />
                     <Box sx={{ p: 3 }}>
                       <Typography variant="h6" gutterBottom color="primary">
                         Why Choose Us?

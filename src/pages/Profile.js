@@ -6,9 +6,9 @@ import { customStyles } from '../styles/globalStyles';
 const Profile = () => {
   // Simulate user data
   const userData = {
-    name: "Alex Johnson",
-    email: "alex.johnson@example.com",
-    phone: "+1 (555) 123-4567",
+    name: "User 1",
+    email: "user1@gmail.com",
+    phone: "9999999999",
     memberSince: "January 2023",
     upcomingAppointments: 2,
     completedAppointments: 8

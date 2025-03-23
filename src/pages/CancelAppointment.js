@@ -111,7 +111,7 @@ const CancelAppointment = () => {
       attendantImage: '/api/placeholder/100/100',
       service: 'Haircut & Styling',
       duration: '45 min',
-      price: '$45',
+      price: 'Rs. 150',
       status: 'confirmed',
       bookingId: 'BK-10045'
     },
@@ -124,7 +124,7 @@ const CancelAppointment = () => {
       attendantImage: '/api/placeholder/100/100',
       service: 'Hair Coloring',
       duration: '120 min',
-      price: '$120',
+      price: 'Rs. 500',
       status: 'confirmed',
       bookingId: 'BK-10046'
     },
@@ -137,7 +137,7 @@ const CancelAppointment = () => {
       attendantImage: '/api/placeholder/100/100',
       service: 'Manicure & Pedicure',
       duration: '90 min',
-      price: '$80',
+      price: 'Rs. 400',
       status: 'pending',
       bookingId: 'BK-10047'
     }
