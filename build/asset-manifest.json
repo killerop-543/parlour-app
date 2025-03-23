@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/parlour-app/static/css/main.64f8e45f.css",
+    "main.js": "/parlour-app/static/js/main.f50fc9f5.js",
+    "static/js/453.e001b140.chunk.js": "/parlour-app/static/js/453.e001b140.chunk.js",
+    "static/media/salon_bg.jpg": "/parlour-app/static/media/salon_bg.e1e461a81a24022a3228.jpg",
+    "static/media/img3.jpg": "/parlour-app/static/media/img3.1f1bc003e544a96068d3.jpg",
+    "static/media/img5.jpg": "/parlour-app/static/media/img5.9f37a634ab6002c29804.jpg",
+    "static/media/img4.jpg": "/parlour-app/static/media/img4.25cbe995b8bd967759c9.jpg",
+    "static/media/img1.jpg": "/parlour-app/static/media/img1.4658333c6b8bea8a911d.jpg",
+    "index.html": "/parlour-app/index.html",
+    "main.64f8e45f.css.map": "/parlour-app/static/css/main.64f8e45f.css.map",
+    "main.f50fc9f5.js.map": "/parlour-app/static/js/main.f50fc9f5.js.map",
+    "453.e001b140.chunk.js.map": "/parlour-app/static/js/453.e001b140.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64f8e45f.css",
+    "static/js/main.f50fc9f5.js"
+  ]
+}
